@@ -54,4 +54,4 @@ gulp.watch(["*.html", "build/js/*.js", "css/*.css"])
 
 
 
-gulp.task("default", gulp.parallel("browser-sync", "scripts"));
+gulp.task("default", gulp.parallel("browser-sync", "watch"));
